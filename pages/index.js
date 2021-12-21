@@ -13,7 +13,12 @@ export default function Home() {
 
       <h1>Netflix</h1>
 
-      <Banner />
+      <Banner
+        title="Interstellar"
+        subTitle="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival."
+        imgUrl="/static/interstellar.jpg"
+      />
+
       {/*<NavBar />
       
       <Card />*/}
